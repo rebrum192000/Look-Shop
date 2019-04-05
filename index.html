@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" name="viewport" content="width=device-width,initial-scale=1">
+	<link rel="stylesheet" href="style.css">
+	<script src="jquery-3.3.1.js"></script>
+	<script src="script.js"></script>
+	<title>LookShop</title>
+</head>
+<body>
+
+	<header class="page-header">
+		<section class="page-header__top  container">
+			<div class="page-header__background">
+				<p class="page-header__care">Custom Care: 123 456 789
+				</p>
+				<div class="page-header__user">
+					<ul class="page-header__currency-list">
+						<li class="page-header__dol">$ US
+							<ul class="page-header__currency-sublist">
+								<li class="page-header__eur">€ EU</li>
+								<li class="page-header__rub">₽ RU</li>
+							</ul>
+						</li>
+					</ul>
+					<p class="page-header__account">My account</p>
+					<form class="page-header__form">
+						<input class="page-header__input" type="text" placeholder="Search here">
+						<button class="page-header__search"><span class="visually-hidden">Search</span></button>
+					</form>
+					
+				</div>
+			</div>
+
+			<div class="page-header__logo container">
+				<img class="page-header__logo-image" src="img/logo.png" alt="" width="358" height="88">
+			</div>
+
+			<div class="page-header__bought container">
+				<p class="page-header__items">0 items  |  $ 0
+				</p>
+			</div>
+
+		</section>
+
+		<section class="page-header__nav container">
+			<p class="page-header__menu">Menu
+			</p>
+			<button class="menu-button page-header__menu-button"></button>
+			<div class="page-nav__menu-hide">
+				<ul class="page-header__menu-list">
+					<li class="page-header__menu-item">
+						<span class="page-header__menu-item-title">new</span>
+						<ul class="page-header__menu-sublist">
+							<li class="page-header__submenu-item"><a class="page-header__link" href="#">trousers</a></li>
+							<li class="page-header__submenu-item"><a class="page-header__link" href="#">shirts</a></li>
+							<li class="page-header__submenu-item"><a class="page-header__link" href="#">jeans</a></li>
+							<li class="page-header__submenu-item"><a class="page-header__link" href="#">shoes</a></li>
+							<li class="page-header__submenu-item"><a class="page-header__link" href="#">hats</a></li>
+						</ul>
+					</li>
+					<li class="page-header__menu-item">
+						<span class="page-header__menu-item-title">designers</span>
+						<ul class="page-header__menu-sublist">
+							<li class="page-header__submenu-item"><a class="page-header__link" href="#">galvani</a></li>
+							<li class="page-header__submenu-item"><a class="page-header__link" href="#">odisson</a></li>
+							<li class="page-header__submenu-item"><a class="page-header__link" href="#">cameron</a></li>
+							<li class="page-header__submenu-item"><a class="page-header__link" href="#">leger</a></li>
+							<li class="page-header__submenu-item"><a class="page-header__link" href="#">vaskes</a></li>
+						</ul>
+					</li>
+					<li class="page-header__menu-item">
+						<span class="page-header__menu-item-title">women</span>
+						<ul class="page-header__menu-sublist">
+							<li class="page-header__submenu-item"><a class="page-header__link" href="#">skirts</a></li>
+							<li class="page-header__submenu-item"><a class="page-header__link" href="#">blouses</a></li>
+							<li class="page-header__submenu-item"><a class="page-header__link" href="#">highills</a></li>
+							<li class="page-header__submenu-item"><a class="page-header__link" href="#">trenches</a></li>
+							<li class="page-header__submenu-item"><a class="page-header__link" href="#">sweaters</a></li>
+						</ul>
+					</li>
+					<li class="page-header__menu-item">
+						<span class="page-header__menu-item-title">men</span>
+						<ul class="page-header__menu-sublist">
+							<li class="page-header__submenu-item"><a class="page-header__link" href="#">t-shirts</a></li>
+							<li class="page-header__submenu-item"><a class="page-header__link" href="#">snickers</a></li>
+							<li class="page-header__submenu-item"><a class="page-header__link" href="#">pants</a></li>
+							<li class="page-header__submenu-item"><a class="page-header__link" href="#">gloves</a></li>
+							<li class="page-header__submenu-item"><a class="page-header__link" href="#">caps</a></li>
+						</ul>
+					</li>
+					<li class="page-header__menu-item">
+						<span class="page-header__menu-item-title">sale</span>
+						<ul class="page-header__menu-sublist">
+							<li class="page-header__submenu-item"><a class="page-header__link" href="#">bags</a></li>
+							<li class="page-header__submenu-item"><a class="page-header__link" href="#">coats</a></li>
+							<li class="page-header__submenu-item"><a class="page-header__link" href="#">sandals</a></li>
+							<li class="page-header__submenu-item"><a class="page-header__link" href="#">socks</a></li>
+							<li class="page-header__submenu-item"><a class="page-header__link" href="#">glasses</a></li>
+						</ul>
+					</li>
+				</ul>
+			</div>
+		</section>
+
+	</header>
+
+	<main class="page-main">
+		
+		<section class="page-main__social">
+			<form class="page-main__email container" action="#" method="get">
+				<input class="page-main__email-area" type="email" placeholder="Your email address">
+				<button class="page-main__email-button"></button>
+			</form>
+
+			<div class="page-main__links container">
+				<p class="page-main__links-text">Find us here</p>
+				<div class="page-main__links-logos">
+					<a class="page-main-social-link" href="#"><img src="img/fb.png" alt="" class="page-main__socials fb" width="15" height="30"></a>
+					<a class="page-main-social-link" href="#"><img src="img/tw.png" alt="" class="page-main__socials tw" width="33" height="28"></a>
+					<a class="page-main-social-link" href="#"><img src="img/pin.png" alt="" class="page-main__socials pin" width="35" height="35"></a>
+				</div>
+			</div>
+		</section>
+		
+		<section class="page-main__hot">
+
+			<div class="page-main__text">
+				<p class="page-main__title">What's hot?</p>
+				 <button class="page-main__title-button"></button>
+			</div>
+			<div class="page-main__hide">
+				<div class="page-main__goods">
+					<article class="page-main__good">
+						<img class="page-main__goods-image" src="img/girl1.jpg" alt="" width="275" height="468">
+						<div class="page-main__goods-cont">
+							<p class="page-main__goods-title">MIMOSA LACE DRESS</p>
+							<p class="page-main__goods-price">$76.95</p>
+							<button class="page-main__goods-cart">add to cart</button>
+						</div>
+					</article>
+					<article class="page-main__good">
+						<img class="page-main__goods-image" src="img/girl2.jpg" alt="" width="275" height="468">
+						<div class="page-main__goods-cont">
+							<p class="page-main__goods-title">WishVitalise Dress</p>
+							<p class="page-main__goods-price">$96.55</p>
+							<button class="page-main__goods-cart">add to cart</button>
+						</div>
+					</article>
+
+					<article class="page-main__good">
+						<img class="page-main__goods-image" src="img/girl1.jpg" alt="" width="275" height="468">
+						<div class="page-main__goods-cont">
+							<p class="page-main__goods-title">MIMOSA LACE DRESS</p>
+							<p class="page-main__goods-price">$76.95</p>
+							<button class="page-main__goods-cart">add to cart</button>
+						</div>
+					</article>
+					<article class="page-main__good">
+						<img class="page-main__goods-image" src="img/girl2.jpg" alt="" width="275" height="468">
+						<div class="page-main__goods-cont">
+							<p class="page-main__goods-title">WishVitalise Dress</p>
+							<p class="page-main__goods-price">$96.55</p>
+							<button class="page-main__goods-cart">add to cart</button>
+						</div>
+					</article>
+
+					<article class="page-main__good">
+						<img class="page-main__goods-image" src="img/girl1.jpg" alt="" width="275" height="468">
+						<div class="page-main__goods-cont">
+							<p class="page-main__goods-title">MIMOSA LACE DRESS</p>
+							<p class="page-main__goods-price">$76.95</p>
+							<button class="page-main__goods-cart">add to cart</button>
+						</div>
+					</article>
+					<article class="page-main__good">
+						<img class="page-main__goods-image" src="img/girl2.jpg" alt="" width="275" height="468">
+						<div class="page-main__goods-cont">
+							<p class="page-main__goods-title">WishVitalise Dress</p>
+							<p class="page-main__goods-price">$96.55</p>
+							<button class="page-main__goods-cart">add to cart</button>
+						</div>
+					</article>
+					<article class="page-main__good">
+						<img class="page-main__goods-image" src="img/girl1.jpg" alt="" width="275" height="468">
+						<div class="page-main__goods-cont">
+							<p class="page-main__goods-title">MIMOSA LACE DRESS</p>
+							<p class="page-main__goods-price">$76.95</p>
+							<button class="page-main__goods-cart">add to cart</button>
+						</div>
+					</article>
+					<article class="page-main__good">
+						<img class="page-main__goods-image" src="img/girl2.jpg" alt="" width="275" height="468">
+						<div class="page-main__goods-cont">
+							<p class="page-main__goods-title">WishVitalise Dress</p>
+							<p class="page-main__goods-price">$96.55</p>
+							<button class="page-main__goods-cart">add to cart</button>
+						</div>
+					</article>
+				</div>
+
+				<div class="page-main__more">
+					<button class="page-main__more-button" id="add">Load More</button>
+				</div>
+			</div>
+		</section>
+
+		<section class="page-main__sales">
+
+			<div class="page-main__sale">
+				<img class="page-main__sale-image" src="img/sale.png" alt="" width="141" height="141">
+			</div>
+
+			<div class="page-main__sales-flex">
+				<article class="page-main__good bags-add">
+					<img class="page-main__goods-image" src="img/bag1.jpg" alt="" width="275" height="468">
+					<div class="page-main__goods-cont">
+						<p class="page-main__goods-title">Atmos&Here Shopper</p>
+						<p class="page-main__goods-price">$49.95</p>
+						<button class="page-main__goods-cart">add to cart</button>
+					</div>
+				</article>
+
+				<article class="page-main__good bags-add">
+					<img class="page-main__goods-image" src="img/bag2.jpg" alt="" width="275" height="468">
+					<div class="page-main__goods-cont">
+						<p class="page-main__goods-title">WishVitalise Dress</p>
+						<p class="page-main__goods-price">$96.55</p>
+						<button class="page-main__goods-cart">add to cart</button>
+					</div>
+				</article>
+
+				<article class="page-main__good bags-add">
+					<img class="page-main__goods-image" src="img/bag1.jpg" alt="" width="275" height="468">
+					<div class="page-main__goods-cont">
+						<p class="page-main__goods-title">Atmos&Here Shopper</p>
+						<p class="page-main__goods-price">$49.95</p>
+						<button class="page-main__goods-cart">add to cart</button>
+					</div>
+				</article>
+
+				<article class="page-main__good bags-add">
+					<img class="page-main__goods-image" src="img/bag2.jpg" alt="" width="275" height="468">
+					<div class="page-main__goods-cont">
+						<p class="page-main__goods-title">WishVitalise Dress</p>
+						<p class="page-main__goods-price">$96.55</p>
+						<button class="page-main__goods-cart">add to cart</button>
+					</div>
+				</article>
+
+				<article class="page-main__good bags-add">
+					<img class="page-main__goods-image" src="img/bag1.jpg" alt="" width="275" height="468">
+					<div class="page-main__goods-cont">
+						<p class="page-main__goods-title">Atmos&Here Shopper</p>
+						<p class="page-main__goods-price">$49.95</p>
+						<button class="page-main__goods-cart">add to cart</button>
+					</div>
+				</article>
+
+				<article class="page-main__good bags-add">
+					<img class="page-main__goods-image" src="img/bag2.jpg" alt="" width="275" height="468">
+					<div class="page-main__goods-cont">
+						<p class="page-main__goods-title">WishVitalise Dress</p>
+						<p class="page-main__goods-price">$96.55</p>
+						<button class="page-main__goods-cart">add to cart</button>
+					</div>
+				</article>
+
+				<article class="page-main__good bags-add">
+					<img class="page-main__goods-image" src="img/bag1.jpg" alt="" width="275" height="468">
+					<div class="page-main__goods-cont">
+						<p class="page-main__goods-title">Atmos&Here Shopper</p>
+						<p class="page-main__goods-price">$49.95</p>
+						<button class="page-main__goods-cart">add to cart</button>
+					</div>
+				</article>
+
+				<article class="page-main__good bags-add">
+					<img class="page-main__goods-image" src="img/bag2.jpg" alt="" width="275" height="468">
+					<div class="page-main__goods-cont">
+						<p class="page-main__goods-title">WishVitalise Dress</p>
+						<p class="page-main__goods-price">$96.55</p>
+						<button class="page-main__goods-cart">add to cart</button>
+					</div>
+				</article>
+			</div>
+
+			<div class="page-main__more--bck">
+				<button class="page-main__more-button" id="addb">Load More</button>
+			</div>
+
+		</section>
+	</main>
+
+	<footer class="page-footer">
+		<button class="menu-button"></button>
+		<p class="page-footer__copyright">© LookShop.com<br>All Rights Reserved</p>
+	</footer>
+	
+</body>
+</html>
