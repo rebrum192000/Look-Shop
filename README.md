@@ -15,4 +15,4 @@
 
 Ниже представляю превью моего сайта для быстрого просмотра:
 
-<a href="https://ibb.co/vHLtHw2"><img src="https://i.ibb.co/f2rc21m/Arrow-Design-rebrum192000-github-io.png" alt="Arrow-Design-rebrum192000-github-io" border="0"></a>
+<a href="https://ibb.co/9YcYy6Q"><img src="https://i.ibb.co/dKjKkF8/Look-Shop-rebrum192000-github-io.png" alt="Look-Shop-rebrum192000-github-io" border="0"></a>
